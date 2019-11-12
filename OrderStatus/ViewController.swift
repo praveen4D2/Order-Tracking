@@ -55,11 +55,13 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource,
         DispatchQueue.main.asyncAfter(wallDeadline: .now()+5) {
             
         }
-//        let delayCounter = indexPath.row
-//        UIView.animate(withDuration: 2.0, delay: 2 * Double(delayCounter),usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
-//            cell.transform = CGAffineTransform.identity
-//        }, completion: nil)
-//        delayCounter += 1
+        
+        
+        //        let delayCounter = indexPath.row
+        //        UIView.animate(withDuration: 2.0, delay: 2 * Double(delayCounter),usingSpringWithDamping: 0.6, initialSpringVelocity: 0, options: .curveEaseInOut, animations: {
+        //            cell.transform = CGAffineTransform.identity
+        //        }, completion: nil)
+        //        delayCounter += 1
 
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
